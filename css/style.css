@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+/* Custom Properties */
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -13,9 +13,10 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #D6CDCD;
+    --clr-dark: #1C241D;
+    --clr-accent: #A3653E;
+    --bg-color: hsl(49, 41%, 88%);
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -24,6 +25,7 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
         0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
 }
 
 @media (min-width: 800px) {
@@ -42,7 +44,7 @@ html {
 }
 
 body {
-    background: var(--clr-light);
+    background: var(--bg-color);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
